@@ -1,0 +1,239 @@
+body {
+	padding: 0;
+	margin:0;
+ 	overflow-x:hidden;
+ 	background-image: url("../img/fondodepantalla1.jpg");
+
+}
+
+
+.izquierda{
+	text-align: center;
+	padding: 10px;
+	color: #fff;
+	background: #cad9a0;
+}
+
+.titulo_centro{
+	text-align: center;
+}
+
+.derecha{
+	text-align: center;
+	padding: 10px;
+	color: #fff;
+	background: #ff80c0;
+}
+
+.imagen_redonda{
+    width:150px;
+    height:150px;
+    border-radius:90px;
+
+}
+
+.servi_foto{
+	width: 150px;
+    height: 100px;
+	
+}
+.foto_pequena{
+	width: 350px;
+    height: 200px;
+}
+
+.foto_grande{
+	width: 500px;
+    height: 600px;
+}
+
+.cuadro_grande{
+	text-align: center;
+    padding: 10px;
+    color: #000;
+    background: rgba(183, 141, 87, 0.14);    
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+  line-height: 1;
+  height: 500px;
+  width: 2000px;
+}
+
+.titulo{
+  margin-top: 80px;
+  text-align: center;
+}
+
+.logo{
+  height: 80px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.navbar-brand{
+  width: 60%;
+  display: inline-block;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.texto{
+  width:200px;
+  height:70px;
+  color: #000;
+  float:left;
+  position:relative;
+}
+
+.opacidad{
+/*   background-color:#c6c6a4; */
+/*   opacity: 0.6; */
+	background: rgba(183, 141, 87, 0.14);
+  width:1150px;
+  height:70px;
+  position:absolute;
+/*  // TOP:0PX; */
+  padding: 30px;
+}
+
+.texto{
+	color: black;
+}
+
+.carousel.slide{
+  margin-top: 3%;
+}
+
+ h1.titulo_principal{
+    line-height: 1.05;
+    font-size: 92px;
+    margin-bottom: 46px;
+    margin-top: 90px;
+    max-width: 930px;
+    margin-left: 70px;
+}
+
+/* REGISTRO FORM */
+
+/* FORM REGISTRO BAJAR UN POCO DEL NAVBAR*/
+div.container div.row div.col-xs-12.col-sm-8.col-md-6.col-sm-offset-2.col-md-offset-3{
+  top:100px;
+}
+/*FIN DEL FORM REGISTRO BAJAR UN POCO DEL NAVBAR*/
+
+
+/* Credit to bootsnipp.com for the css for the color graph */
+.colorgraph {
+  height: 5px;
+  border-top: 0;
+  background: #c4e17f;
+  border-radius: 5px;
+  background-image: -webkit-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: -moz-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: -o-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: linear-gradient(to right, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+}
+
+/* FIN REGISTRO FORM*/
+
+
+/* navbar */
+.navbar, .dropdown-menu{
+	background:#cc97d6;
+	border: none;
+}
+
+.nav>li>a, .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover, .dropdown-menu>li>a, .dropdown-menu>li{
+  border-bottom: 3px solid transparent;
+}
+.nav>li>a:focus, .nav>li>a:hover,.nav .open>a, .nav .open>a:focus, .nav .open>a:hover, .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover{
+  border-bottom: 3px solid transparent;
+  background: rgba(154, 154, 154, 0.27);
+}
+.navbar a, .dropdown-menu>li>a, .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover, .navbar-toggle{
+ color: #fff;
+}
+.dropdown-menu{
+      -webkit-box-shadow: none;
+    box-shadow:none;
+}
+
+.nav li:hover:nth-child(8n+1), .nav li.active:nth-child(8n+1){
+  border-bottom: #b6f423 4px solid;
+}
+.nav li:hover:nth-child(8n+2), .nav li.active:nth-child(8n+2){
+  border-bottom: #82e2ea 4px solid;
+}
+.nav li:hover:nth-child(8n+3), .nav li.active:nth-child(8n+3){
+  border-bottom: #f8b42c 4px solid;
+}
+.nav li:hover:nth-child(8n+4), .nav li.active:nth-child(8n+4){
+  border-bottom: #fd594a 4px solid;
+}
+.nav li:hover:nth-child(8n+5), .nav li.active:nth-child(8n+5){
+  border-bottom: #e8479d 4px solid;
+}
+.nav li:hover:nth-child(8n+6), .nav li.active:nth-child(8n+6){
+  border-bottom: #a12eeb 4px solid;
+}
+.nav li:hover:nth-child(8n+7), .nav li.active:nth-child(8n+7){
+  border-bottom: #4785d9 4px solid;
+}
+.nav li:hover:nth-child(8n+8), .nav li.active:nth-child(8n+8){
+  border-bottom: #2aed9a 4px solid;
+}
+
+.navbar-toggle .icon-bar{
+    color: #fff;
+    background: #000000;
+}
+
+/* Credit to bootsnipp.com for the css for the color graph 
+ ESTO SOLO ES PARA EL FORMULARIO DE LOGIN
+*/
+.colorgraph {
+  height: 5px;
+  border-top: 0;
+  background: #c4e17f;
+  border-radius: 5px;
+  background-image: -webkit-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: -moz-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: -o-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: linear-gradient(to right, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+}
+
+
+/* Footer */
+
+.estatico{
+	position:fixed;
+}
+
+.footer { 
+/* 	position:fixed; */
+	bottom: 0px;
+    padding: 10px;
+    color: #fff;
+    background: #cc97d6; 
+	text-align: center;
+	line-height: 20px;
+}
+
+.footer>h5{
+	text-align: center;
+}
+
+.footer>li{
+	list-style:none;
+	text-decoration: none;
+}
+
+.footer>li>a{
+	color: #fff;
+	font-size: 10px;
+	text-decoration: none;
+	list-style:none;
+}
+
+

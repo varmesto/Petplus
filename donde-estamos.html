@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PetPlus</title>
+
+
+    <link href="asset/css/bootstrap.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="stylesheet" href="asset/css/style.css">
+    
+</head>
+<body>
+
+<!-- ----------------------------INICIO NAVBAR-------------------------------------------------------------- -->
+
+<div class="navbar-wrapper">
+    <div class="container-fluid">
+        <nav class="navbar navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="Controller?op=toIndex">
+                            <img class="logo" src="asset/img/logo.png" >
+                    </a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                            <li class=" dropdown">
+                            <a href="#" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sobre nosotros <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="Controller?op=toServiciosPetPlus">Servicios</a></li>
+                            </ul>
+                        </li>
+
+                        <li class=" dropdown"><a href="Controller?op=toDondeEstamos" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dónde estamos<span class="caret"></a>
+                        </li>
+                        
+                        <li class=" down"><a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contáctanos<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="Controller?op=toContacto">Contacto</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav pull-right">
+                        <li class=""><a href="Controller?op=toRegistrarCliente">Regístrate</a></li>
+                        <li class=""><a href="Controller?op=toInicia-Sesion">Iniciar sesión</a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>
+
+
+<!------------------------------------------------------FIN NAVABAR------------------------------------------------>
+
+
+
+<div class="container">
+
+            <div>
+                <h1 class="titulo">PETPLUS</h1>
+            </div>
+            
+
+    <br>
+    <br>
+    <div class="opacidad">
+        <h4 class=""> 
+            Aqui podras encontrarnos, si necesitas mas información:
+        </h4>        
+    </div>
+    
+    
+
+	<br><br><br><br>
+
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3035.935899964078!2d-3.5896669848771308!3d40.45455567936079!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd422fd3a003f37f%3A0x2e58adb0cf4eb161!2sCentro+de+Formaci%C3%B3n+Barajas!5e0!3m2!1ses-419!2ses!4v1562792154013!5m2!1ses-419!2ses" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+ </div>
+                	           
+                
+  </div> <!-- / container -->
+
+<!-- ==============================Footer====================================== -->
+	<footer>
+		<div class="footer col-lg-12 col-md-12"> 
+			<div class="container">
+				<div class="col-lg-6 col-md-6">
+					<h5>Información</h5>
+					<ul>
+						<li><a href="Controller?op=toContacto">Contacto</a></li>
+						<li><a href="Controller?op=toAdmin">Administración</a></li>
+					</ul>
+				</div>
+				<div class="col-lg-6 col-md-6">
+					<h5>Condiciones</h5>
+					<ul>
+						<li><a href="Controller?op=toAviso">Aviso legal</a></li>
+						<li><a href="Controller?op=toPolitica">Política de privacidad</a></li>
+						<li><a href="Controller?op=toCookies">Cookies</a></li>
+					</ul>
+				</div>
+				<div class="col-lg-12 col-md-12"> 
+					<p>Copyright 
+						<script>
+							document.write(new Date().getFullYear());
+						</script>
+					* All rights reserved * This page is made by Génesis Roa and Vanessa Armesto Hernández</p>
+				</div>
+			</div>		
+		</div>
+	</footer>	
+<!-- ==============================Fin footer====================================== -->		
+
+</body>
+	<script src="asset/js/jquery-3.4.1.min.js"></script>
+    <script src="asset/js/bootstrap.js"></script>
+    <script src="asset/js/popper.js"></script>
+    <script src="asset/js/funciones.js"></script>
+</html>
